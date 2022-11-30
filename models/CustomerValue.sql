@@ -40,4 +40,3 @@ left join customer_payments
 on stg_customers.customer_id = customer_payments.customer_id
 ) 
 select * from final
-);
